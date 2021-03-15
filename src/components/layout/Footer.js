@@ -8,10 +8,11 @@ export default function Footer() {
 		<footer className="site-footer text-light">
 			<div className="container">
 				<div className="site-footer-inner">
-					<NavLinks className="footer-links" />
-					<SocialLinks className="footer-social-links" />
+					{/* TODO: Add Nav and Social Media links in the future. */}
+					{/* <NavLinks className="footer-links" /> */}
+					{/* <SocialLinks className="footer-social-links" /> */}
 					<div className="footer-copyright">
-						&copy; 2018 Holly, all rights reserved
+						&copy; 2021 Project Loot. All rights reserved.
 					</div>
 				</div>
 			</div>

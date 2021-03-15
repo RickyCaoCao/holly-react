@@ -7,8 +7,9 @@ export default function IndexPage() {
 	return (
 		<Layout>
 			<Hero
-				title="Landing template for startups"
-				content="Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+				title="Get Funding."
+				content="Whether it's grants, loans, tax credits or more,
+				Project Loot can help you discover the best funding opportunities for your business."
 				illustration={HeroIllustration}
 			/>
 		</Layout>
