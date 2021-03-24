@@ -7,9 +7,9 @@ export default function IndexPage() {
 	return (
 		<Layout>
 			<Hero
-				title="Get Funding."
-				content="Whether it's grants, loans, tax credits or more,
-				Project Loot can help you discover the best funding opportunities for your business."
+				title="Get funding for your business."
+				tagline="79% of businesses fail because they started out with not enough money."
+				content="Here at Project Loot, we use cutting-edge software to recommend you the best funding opportunities for your business."
 				illustration={HeroIllustration}
 			/>
 		</Layout>

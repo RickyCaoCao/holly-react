@@ -1,5 +1,5 @@
 {
-  "name": "holly_react",
+  "name": "project-loot",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://lootfunding.com/",
@@ -7,7 +7,7 @@
     "build-css": "node-sass-chokidar src/assets/css/scss/style.scss -o src/assets/css",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "npm run build",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "watch-css": "npm run build-css && node-sass-chokidar src/assets/css/scss -o src/assets/css --watch --recursive"
@@ -17,7 +17,8 @@
       "wesbos"
     ],
     "rules": {
-      "react/prop-types": 0
+      "react/prop-types": 0,
+      "prettier/prettier": 0
     }
   },
   "dependencies": {
